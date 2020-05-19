@@ -3902,20 +3902,20 @@ input, select, textarea {
 			#intro {
 				background-attachment: scroll;
 			}
-		
-		/* Particle JS */
-		#background {
-			background-attachment: fixed;
-			background-position: top right;
-			background-repeat: no-repeat;
-			background-size: 100% 100%;
-			position: absolute;
-			display: block;
-			top: 0;
-			left: 0;
-			z-index: -1;
-		  } 
 	}
+	button.sidebar-btn{
+		text-decoration: none;
+		padding: 0;
+		height: 40px;
+		width: 40px;
+		margin-top: 2rem;
+	  }
+	i.side-icon{
+		position: relative;
+		top: -0.7rem;
+		right: -0.1rem;
+	}
+	
 	
 
 
